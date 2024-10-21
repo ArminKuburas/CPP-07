@@ -6,7 +6,7 @@
 /*   By: akuburas <akuburas@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 20:10:49 by akuburas          #+#    #+#             */
-/*   Updated: 2024/10/21 20:16:53 by akuburas         ###   ########.fr       */
+/*   Updated: 2024/10/21 20:19:31 by akuburas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ int main(void)
 	std::cout << "Original strings: ";
 	iter(strings, 5, print<std::string>);
 	std::cout << std::endl;
-	std::cout << "Incremented strings: ";
-	iter(strings, 5, increment<std::string>);
-	iter(strings, 5, print<std::string>);
+	// std::cout << "Incremented strings: ";
+	// iter(strings, 5, increment<std::string>);
+	// iter(strings, 5, print<std::string>);
 }
